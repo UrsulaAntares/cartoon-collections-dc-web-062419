@@ -8,7 +8,7 @@ end
 
 
 
-array = ["wooooooooo hooooo", "Hallelujah"]
+#array = ["wooooooooo hooooo", "Hallelujah"]
 def long_planeteer_calls(array)
   new_array = array.map {|name| name.length} 
   puts new_array
@@ -21,4 +21,4 @@ def find_the_cheese# code an argument here
 end
 
 
-long_planeteer_calls(array)
+#long_planeteer_calls(array)

@@ -12,7 +12,7 @@ array = ["wooooooooo hooooo", "Hallelujah"]
 def long_planeteer_calls(array)
   new_array = array.map {|name| name.length} 
   puts new_array
-  array.include?(3..1000) ? true : false
+  new_array.include?(3..1000) ? true : false
 end
 
 def find_the_cheese# code an argument here

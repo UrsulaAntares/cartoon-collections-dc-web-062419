@@ -8,7 +8,7 @@ end
 
 def long_planeteer_calls(array)
   array.map {|word| word.length} 
-  array.include?(3..100)
+  array.include?(3..1000)
 end
 
 def find_the_cheese# code an argument here

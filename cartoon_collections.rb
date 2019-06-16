@@ -6,8 +6,12 @@ def summon_captain_planet(array)
   array.map {|name| name.capitalize << "!"}
 end
 
+
+
+array = ["wooooooooo hooooo", "Hallelujah"]
 def long_planeteer_calls(array)
   array.map {|word| word.length} 
+  puts array
   array.include?(3..1000) ? true : false
 end
 

@@ -11,13 +11,13 @@ end
 #array = ["wooooooooo hooooo", "Hallelujah"]
 def long_planeteer_calls(array)
   new_array = array.map {|name| name.length} 
-  puts new_array
+#  puts new_array
   new_array.include?(5) ? true : false
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  array.find 
 end
 
 

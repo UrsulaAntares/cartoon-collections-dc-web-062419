@@ -12,7 +12,7 @@ end
 def long_planeteer_calls(array)
   new_array = array.map {|name| name.length} 
   puts new_array
-  new_array.include?(4..1000) ? true : false
+  new_array.include?(4..1000)
 end
 
 def find_the_cheese# code an argument here

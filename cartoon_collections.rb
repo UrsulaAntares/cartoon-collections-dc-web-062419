@@ -10,7 +10,7 @@ end
 
 array = ["wooooooooo hooooo", "Hallelujah"]
 def long_planeteer_calls(array)
-  array.map {|word| word.length} 
+  array.map {|name| name.length} 
   puts array
   array.include?(3..1000) ? true : false
 end
